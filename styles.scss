@@ -1,0 +1,41 @@
+@import "./reset";
+
+body {
+    background-color: lightcoral;
+}
+
+.container {
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+  color: black;
+
+  h1 {
+    padding: 15px;
+    font-size: 75px;
+  }
+
+  #buscador {
+    width: 200px;
+    height: 40px;
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+
+  #buscadorButton {
+    height: 40px;
+    padding: 5px 10px;
+    margin-left: 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: orangered;
+    color: #fff;
+  }
+
+  #pokedex {
+    margin: 50px 50px 0 50px;
+    border: 1px solid black;
+    background-color: paleturquoise;
+  }
+
+}
